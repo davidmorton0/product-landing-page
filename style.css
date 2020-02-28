@@ -1,0 +1,76 @@
+body {
+  background-color: Turquoise;
+  font-family: 'Bangers', cursive;
+}
+
+h1 {
+  margin: 5% 0 0 10%;
+}
+
+nav {
+  display:flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  background-color: Pink;
+  overflow: hidden;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 5px 10px 5px;
+}
+
+form {
+  margin: 3%;
+}
+
+.hat {  
+  border: solid black 3px;
+  background-color: white;
+  padding: 10%;
+}
+
+.hat > img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+#header-img {
+  position: absolute;
+  right: 0;
+  top: 4%;
+  width: 10%;
+  height: auto;
+  clip: rect(0,150px,90px,0);
+}
+
+#products {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: solid black 3px;
+  line-height: 0;
+  -webkit-column-count: 3;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    3;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           0px;
+}
+
+#video {
+  display:block;
+  width: 80%;
+  height: 315px;
+  margin: auto;
+}
+
+@media (max-width: 400px) {
+  #video{
+    width:100px;
+    height: auto;
+  }
+}
