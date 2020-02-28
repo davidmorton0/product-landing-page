@@ -27,7 +27,7 @@ form {
   margin: 3%;
 }
 
-.hat {  
+.hat {
   border: solid black 3px;
   background-color: white;
   padding: 10%;
@@ -63,7 +63,7 @@ form {
 
 #video {
   display:block;
-  width: 80%;
+  width: 400px;
   height: 315px;
   margin: auto;
 }
